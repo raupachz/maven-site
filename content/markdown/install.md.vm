@@ -50,3 +50,41 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
 ```
 
+Third party applications
+========================
+
+Many third party applications and packet managers allow you to download and install Apache Maven with a single command.
+They also take care of upgrading to the most recent version.
+
+While convenient to use, they are not officially support by the Apache Maven Team.
+
+On Debian, Ubuntu and derived Linux distributions:
+
+```shell
+apt install maven
+```
+
+On Fedora, CentOS and RHEL:
+
+```shell
+dnf install maven
+```
+
+With SDKMAN!:
+
+```shell
+sdk install maven
+```
+
+With MacPorts:
+
+```shell
+sudo port install maven3
+```
+
+With Homebrew:
+
+```shell
+brew install maven
+```
+
